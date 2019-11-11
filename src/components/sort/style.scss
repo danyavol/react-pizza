@@ -1,0 +1,36 @@
+.sort_catalog {
+    display: flex;
+    margin: 0 0 10px 5px;
+    > div {
+        margin-right: 20px;
+        font-size: 1.3rem;
+        padding: 5px 20px;
+        background: burlywood;
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+        transition: 0.3s;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+    }
+    > div:hover {
+        //color: #70544f;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+}
+
+$screen-xs-max: 767px;
+@media (max-width: $screen-xs-max) {
+    .sort_catalog {
+        flex-flow: column;
+        > div:first-child {
+            margin-top: 0px;
+        }
+        > div {
+            margin-top: 8px;
+            margin-right: 0;
+        }
+    }
+}

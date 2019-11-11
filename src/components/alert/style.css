@@ -1,0 +1,7 @@
+#alert_style {
+    position: fixed;
+    z-index: 2;
+    left: 15%;
+    top: 30px;
+    min-width: 70%;
+}

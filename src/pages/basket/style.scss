@@ -1,0 +1,47 @@
+.basket_item_container {
+  background: white;
+  border-radius: 10px;
+  margin: 9px 0;
+  position: relative;
+
+  .basket_item {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 100px;
+      padding: 10px 0 10px 10px;
+    }
+
+    .basket_title {
+      font-size: 1.5rem;
+    }
+
+    .basket_price {
+      font-size: 1.5rem;
+    }
+
+  }
+
+  .basket_remove {
+    align-self: normal;
+    background: #e44e5c;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 50px;
+    height: 100%;
+    transition: 0.2s;
+  }
+
+  .basket_remove:hover {
+    background: red;
+  }
+}
+
+.basket_total {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+

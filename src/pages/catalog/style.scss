@@ -1,0 +1,27 @@
+.prod_info {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+
+    .img {
+        width: 400px;
+        padding-right: 30px;
+    }
+
+    .info {
+        .info_title {
+            font-size: 1.5rem;
+        }
+
+        .info_price {
+            color: #fcb415;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .info_description {
+            font-size: 1.2rem;
+        }
+    }
+}

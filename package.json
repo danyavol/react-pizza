@@ -1,0 +1,60 @@
+{
+  "name": "react-test-modules",
+  "version": "1.0.0",
+  "description": "custom html module with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET \"NODE_ENV=development\" && webpack",
+    "prod": "SET \"NODE_ENV=production\" && webpack",
+    "server": "SET \"NODE_ENV=development\" && webpack-dev-server --open"
+  },
+  "keywords": [
+    "yii2",
+    "html",
+    "react",
+    "custom"
+  ],
+  "author": "Ivan Proza",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.9.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.0",
+    "react-slick": "^0.25.2",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "sass-loader": "^7.1.0",
+    "slick-carousel": "^1.8.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.2.0",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

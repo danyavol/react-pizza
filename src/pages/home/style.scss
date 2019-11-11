@@ -1,0 +1,75 @@
+.slick-butt-next:before {
+    content: '→';
+}
+
+.slick-butt-prev:before {
+    content: '←';
+}
+
+ .slick-butt-prev:before, .slick-butt-next:before {
+     font-family: 'slick';
+     font-size: 50px;
+     line-height: 1;
+     opacity: .75;
+     color: black;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+.slick-butt-prev, .slick-butt-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.slick-butt-next {
+    right: 0px;
+    justify-content: flex-end;
+}
+
+.slick-butt-prev {
+    left: 0px;
+    justify-content: flex-start;
+}
+
+.slick-butt-prev:hover, .slick-butt-prev:focus, .slick-butt-next:hover, .slick-butt-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-butt-prev:hover:before, .slick-butt-prev:focus:before, .slick-butt-next:hover:before, .slick-butt-next:focus:before {
+    opacity: 1;
+}
+
+.carousel-img {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-position:center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+$screen-xs-max: 767px;
+
+@media (max-width: $screen-xs-max) {
+    .home_slider {
+        display: none;
+    }
+}

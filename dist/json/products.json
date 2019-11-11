@@ -1,0 +1,131 @@
+[
+    {
+        "id": 0,
+        "title": "Фруктовая с сыром",
+        "src": "../images/prods/0/0.png",
+        "gallery": [
+            "../images/prods/0/0.png",
+            "../images/prods/0/1.png"
+        ],
+        "price": 15.9,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "status": "top"
+    },
+    {
+        "id": 1,
+        "title": "Динамит",
+        "src": "../images/prods/1/0.png",
+        "gallery": [
+            "../images/prods/1/0.png",
+            "../images/prods/1/1.png",
+            "../images/prods/1/2.png"
+        ],
+        "price": 18.9,
+        "description": "Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus.",
+        "status": "new"
+    },
+    {
+        "id": 2,
+        "title": "Четыре сыра",
+        "src": "../images/prods/2/0.png",
+        "gallery": [
+            "../images/prods/2/0.png",
+            "../images/prods/2/1.png",
+            "../images/prods/2/2.png"
+        ],
+        "price": 12.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "sale"
+    },
+    {
+        "id": 3,
+        "title": "Ветчина c курицей",
+        "src": "../images/prods/3/0.png",
+        "gallery": [
+            "../images/prods/3/0.png",
+            "../images/prods/3/1.png",
+            "../images/prods/3/2.png"
+        ],
+        "price": 20.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "top"
+    },
+    {
+        "id": 4,
+        "title": "Грудинка с яйцом",
+        "src": "../images/prods/4/0.png",
+        "gallery": [
+            "../images/prods/4/0.png",
+            "../images/prods/4/1.png",
+            "../images/prods/4/2.png"
+        ],
+        "price": 15.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "sale"
+    },
+    {
+        "id": 5,
+        "title": "Курица с грибами",
+        "src": "../images/prods/5/0.png",
+        "gallery": [
+            "../images/prods/5/0.png",
+            "../images/prods/5/1.png",
+            "../images/prods/5/2.png"
+        ],
+        "price": 15.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "new"
+    },
+    {
+        "id": 6,
+        "title": "С лососем",
+        "src": "../images/prods/6/0.png",
+        "gallery": [
+            "../images/prods/6/0.png",
+            "../images/prods/6/1.png",
+            "../images/prods/6/2.png"
+        ],
+        "price": 12.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "new"
+    },
+    {
+        "id": 7,
+        "title": "Дьябло",
+        "src": "../images/prods/7/0.png",
+        "gallery": [
+            "../images/prods/7/0.png",
+            "../images/prods/7/1.png",
+            "../images/prods/7/2.png"
+        ],
+        "price": 18.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "top"
+    },
+    {
+        "id": 8,
+        "title": "Гаваи",
+        "src": "../images/prods/8/0.png",
+        "gallery": [
+            "../images/prods/8/0.png",
+            "../images/prods/8/1.png",
+            "../images/prods/8/2.png"
+        ],
+        "price": 20.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "sale"
+    },
+    {
+        "id": 9,
+        "title": "Шеф пицца",
+        "src": "../images/prods/9/0.png",
+        "gallery": [
+            "../images/prods/9/0.png",
+            "../images/prods/9/1.png",
+            "../images/prods/9/2.png"
+        ],
+        "price": 12.9,
+        "description": "Nisl vel pretium lectus quam. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Etiam sit amet nisl purus in mollis nunc. Sit amet justo donec enim diam vulputate ut pharetra sit.",
+        "status": "top"
+    }
+]
