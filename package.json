@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "custom html module with react",
   "main": "index.js",
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.16.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "SET \"NODE_ENV=development\" && webpack",
