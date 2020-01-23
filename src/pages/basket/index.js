@@ -21,11 +21,14 @@ class BasketPage extends Component{
                         prodsInBasket.map((item,i) =>
                             <div className={"basket_item_container"} key={i}>
                                 <div className={"basket_item"}>
-                                    <img src={item.src} />
+                                    <img className={"basket_preview"} src={item.src} />
                                     <p className={"basket_title"}>{item.title}</p>
                                     <div className={"basket_price"}>{item.price.toFixed(2)+"BYN"}</div>
+                                    <div className={"basket_remove"}>
+                                        <img src={"images/basketRemove.png"} onClick={() => this.remove(item.id)} />
+                                    </div>
                                 </div>
-                                <div className={"basket_remove"}>{''}</div>
+
                             </div>
                         )
                         :
@@ -60,6 +63,12 @@ class BasketPage extends Component{
         let total = 0;
         this.state.prodsInBasket.forEach(item => total += item.price);
         return total.toFixed(2)+" BYN";
+    }
+
+    remove = (id) => {
+        this.props.dispatch({type: "BASKET_REMOVE", data: id});
+        let newState = this.state.prodsInBasket.filter(item => item.id !== id);
+        this.setState( {prodsInBasket: newState} );
     }
 
 
